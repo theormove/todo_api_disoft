@@ -4,16 +4,22 @@ Python 3.10
 Django 4.1 
 Django Rest Framework
 # Endpoints
-## tasks (list all tasks GET, and POST task)
-## task/{ID} (PATCH task)
+## tasks/ 
+(list all tasks GET, and POST task)
+## tasks/{SLUG} 
+(filter by status)
+## task/{ID} 
+(PATCH task)
 {"status":str
 ...}
-## task/{ID}/image (POST image)
+## task/{ID}/image 
+(POST image)
 {
 "task":int(task_id),
 "file":imagefile
 }
-## /comments (GET or POST comments )
+## /comments 
+(GET or POST comments )
 {
 "task":int(task_id),
 "text":imagefile
