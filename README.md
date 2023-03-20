@@ -21,3 +21,7 @@ optional
 "parent":int(comment_id)
 }
 # To run yourself install packages from requirements.txt
+#Note
+comments are raw
+did not add gitignore file so there are some unnesesary files like _pycache_...
+coverage only shows 83% and 58% on views.py so need to write more tests
