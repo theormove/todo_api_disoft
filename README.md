@@ -10,16 +10,19 @@ Django Rest Framework
 (filter by status)
 ## task/{ID} 
 (PATCH task)
+
 {"status":str
 ...}
 ## task/{ID}/image 
 (POST image)
+
 {
 "task":int(task_id),
 "file":imagefile
 }
 ## /comments 
 (GET or POST comments )
+
 {
 "task":int(task_id),
 "text":imagefile
